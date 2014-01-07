@@ -1,0 +1,35 @@
+name: Vote4TempBan
+version: 0.6
+description: A plugin that gives players the ability to vote for a temporarily ban.
+authors: [mid_kid, Reijer The Coder]
+website: http://www.thenewprogramming.com
+main: com.thenewprogramming.Bukkit.Vote4TempBan.Vote4TempBan
+
+commands:
+    vote:
+        description: This is the main Vote4TempBan command
+        permission: 
+        permission-message: You do not have permission to do that
+        usage: /vote yes|no|start|cancel|unban [player] [reason]
+
+permissions:
+    Vote4TempBan.*:
+        description: Gives access to all Vote4TempBan commands
+        default: false
+        children:
+            Vote4TempBan.vote: true
+            Vote4TempBan.start: true
+            Vote4TempBan.cancel: true
+            Vote4TempBam.unban: true
+    Vote4TempBan.vote:
+        description: Allows you to use the main Vote4TempBan command to vote in a voting.
+        default: true
+    Vote4TempBan.start:
+        description: Allows you to use the "/vote start" command to start a vote.
+        default: true
+    Vote4TempBan.cancel:
+        description: Allows you to use the "/vote cancel" command to cancel the voting thats going on.
+        default: op
+    Vote4TempBan.unban:
+        description: Allows you to  use the "/vote unban" command to unban a player that has been banned with this plugin.
+        default: op

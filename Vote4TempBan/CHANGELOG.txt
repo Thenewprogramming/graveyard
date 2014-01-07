@@ -1,0 +1,37 @@
+Upcoming changes:
+(probably the development is going to go must faster since there is 2 people working on this now)
+
+==========next version==========
+ * fix the dynamic messages (instead of displaying 0, display 0.5)
+
+==========someday===========
+ + first public release on Bukkit
+ + configurable messages
+
+Changelog:
+
+==========0.6==========
+ + admin commands to unban players
+ + admin commands to cancel a vote
+ ! (probably) updated to bukkit IDK which version
+
+==========0.5==========
+ + configurable length of votes and bantimes
+ + dynamic messages
+ * no join/leave messages for banned players
+ * minor performance fixes
+ ! updated to bukkit 1.4.7-R1.0 build #1679 (Recommended build)
+
+==========0.4==========
+ + Added a cooldown for voting. From now on you need to wait one hour before starting a new vote
+ + First release with a source zip
+
+==========0.3==========
+ * replaced bans with kick on join
+
+==========0.2==========
+ + First private release
+ + Basic voting system and ban/unban
+ + Only one vote per player
+ + at least 2 yes votes to ban a player
+ ! built against bukkit 1.4.7-R0.1 build #1669 (Beta build)

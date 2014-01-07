@@ -1,0 +1,4 @@
+timesettings:
+    votelength: 1200
+    bantime: 36000
+    votecooldown: 72000
